@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.bg {
+/* The image used */
+background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.jumbotron{
+  background-color: #343a40;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
